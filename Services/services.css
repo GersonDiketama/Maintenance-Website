@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+
+/*
+header h2{font-size: 15px;}
+
+.container-services figcaption
+{
+    animation-name: letter;
+    animation-duration: 3s;
+   
+    
+}
+
+@keyframes letter
+{
+    0%{background-color:beige;
+        transform: scale(0.5);
+    
+  }
+
+    50%{background-color: beige;
+    transform: scale(0.7);}
+    
+  
+
+    100%{background-color:beige;
+    transform: scale(1);}
+}
+*/
+
+header a 
+{
+    text-decoration: none;
+    color: black;
+}
+
+.container-services img
+{
+margin-bottom:90px;
+}
+
+
+.container-services figcaption
+{
+    padding-right: 800px;
+    padding-left: 20px;
+}
+
+
+.container-services h1 
+{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.container-services h2
+{
+    margin-bottom: 20px;
+}
+
+.maintenance
+{
+    display: flex;
+}
+ 
+.electricity
+{
+    display: flex;
+}
+
+.repair
+{
+    display: flex;
+}
+
+.painting
+{
+    display: flex;
+}
+
+
+
+
+
+
+@media (min-width:300px)
+{
+    .container-services figcaption
+{
+    padding-right: 10px;
+    padding-left: 0;
+   
+}
+
+.container-services img
+{
+    width: 40%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.container-services h1 
+{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.container-services h2
+{
+    margin-top: 20px;
+}
+
+.maintenance
+{
+    display: block;
+}
+ 
+.electricity
+{
+    display: block;
+}
+
+.repair
+{
+    display: block;
+}
+
+.painting
+{
+    display: block;
+}
+
+}
+
+@media (min-width:768px)
+{
+
+    .container-services figcaption
+    {
+        padding-right: 100px;
+        padding-left: 20px;
+    }
+    
+    
+    .container-services h1 
+    {
+        text-align: center;
+        margin-bottom: 30px;
+    
+    }
+    
+    .container-services h2
+    {
+        margin-bottom: 20px;
+    }
+    
+    .maintenance
+    {
+        display: flex;
+    }
+     
+    .electricity
+    {
+        display: flex;
+    }
+    
+    .repair
+    {
+        display: flex;
+    }
+    
+    .painting
+    {
+        display: flex;
+    }
+
+}
